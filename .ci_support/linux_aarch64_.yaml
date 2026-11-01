@@ -1,5 +1,5 @@
 DOCKER_PLATFORM:
-- linux/amd64
+- linux/aarch64
 aws_crt_cpp:
 - 0.43.8
 aws_sdk_cpp:
@@ -35,7 +35,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '15'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma10
+- quay.io/condaforge/linux-anvil-aarch64:alma10
 fmt:
 - '12.1'
 libabseil:
@@ -43,9 +43,9 @@ libabseil:
 libcurl:
 - '8'
 libgoogle_cloud_devel:
-- '3.8'
+- '3.12'
 libgoogle_cloud_storage_devel:
-- '3.8'
+- '3.12'
 libwebp_base:
 - '1'
 lz4_c:
